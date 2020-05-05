@@ -55,7 +55,7 @@ export default function SingleProductPage() {
                       add to cart
                     </button>
                     <Link
-                      to="/ecommerce/products"
+                      to="/tech-store/products"
                       className="main-link"
                       style={{ margin: "0.75rem" }}
                     >

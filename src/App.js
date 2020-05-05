@@ -25,12 +25,12 @@ class App extends Component {
         <Sidebar />
         <SideCart />
         <Switch>
-          <Route path="/ecommerce" exact component={Home} />
-          <Route path="/ecommerce/about" component={About} />
-          <Route path="/ecommerce/contact" component={Contact} />
-          <Route path="/ecommerce/products" exact component={Products} />
-          <Route path="/ecommerce/products/:id" component={SingleProduct} />
-          <Route path="/ecommerce/cart" component={Cart} />
+          <Route path="/tech-store" exact component={Home} />
+          <Route path="/tech-store/about" component={About} />
+          <Route path="/tech-store/contact" component={Contact} />
+          <Route path="/tech-store/products" exact component={Products} />
+          <Route path="/tech-store/products/:id" component={SingleProduct} />
+          <Route path="/tech-store/cart" component={Cart} />
           <Route component={Default} />
         </Switch>
         <Footer />

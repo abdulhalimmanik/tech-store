@@ -7,7 +7,7 @@ export default class MyApp extends React.Component {
             // Congratulation, it came here means everything's fine!
             // console.log("The payment was succeeded!", payment);
             this.props.clearCart();
-            this.props.history.push("/ecommerce")
+            this.props.history.push("/tech-store")
             // You can bind the "payment" object's value to your state or props or whatever here, please see below for sample returned data
         }
 

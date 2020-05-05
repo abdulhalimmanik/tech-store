@@ -15,14 +15,14 @@ export default function Product({ product }) {
             <div className="card">
               <div className="img-container">
                 <img
-                  src={`../ecommerce/${product.image}`}
+                  src={`../tech-store/${product.image}`}
                   className="card-img-top p-5"
                   alt="product"
                   style={{ height: "320px" }}
                 />
                 <div className="product-icons">
                   <Link
-                    to={`/ecommerce/products/${product.id}`}
+                    to={`/tech-store/products/${product.id}`}
                     onClick={() => setSingleProduct(product.id)}
                   >
                     <FaSearch className="icon" />

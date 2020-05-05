@@ -7,7 +7,7 @@ export default function Default() {
     <>
       <Hero img={defaultBcg} title="404" max="true">
         <h2 className="text-uppercase">page not found</h2>
-        <Link to="/ecommerce" className="main-link" style={{ marginTop: "2rem" }}>
+        <Link to="/tech-store" className="main-link" style={{ marginTop: "2rem" }}>
           return home
         </Link>
       </Hero>

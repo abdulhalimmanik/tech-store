@@ -15,7 +15,7 @@ export default function SideCart() {
                   <li key={item.id} className="cart-item mb-4">
                     <img
                       width="35"
-                      src={`../ecommerce/${item.image}`}
+                      src={`../tech-store/${item.image}`}
                       // src={item.image}
                       alt="cart item"
                     />
@@ -33,7 +33,7 @@ export default function SideCart() {
               cart total : ${cartTotal}
             </h4>
             <div className="text-center my-5">
-              <Link to="/ecommerce/cart" className="main-link">
+              <Link to="/tech-store/cart" className="main-link">
                 cart page
               </Link>
             </div>

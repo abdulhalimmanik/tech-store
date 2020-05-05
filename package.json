@@ -1,6 +1,6 @@
 {
-  "homepage": "http://abdulhalimmanik.github.io/ecommerce",
-  "name": "ecommerce",
+  "homepage": "http://abdulhalimmanik.github.io/tech-store",
+  "name": "tech-store",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

@@ -15,7 +15,7 @@ export default function Product({ product }) {
             <div className="card">
               <div className="img-container">
                 <img
-                  src={`../ecommerce/product.image`}
+                  src={`../ecommerce/${product.image}`}
                   className="card-img-top p-5"
                   alt="product"
                   style={{ height: "320px" }}
